@@ -76,3 +76,15 @@ input, select {
     margin-bottom: .5rem ;
     font-weight: bold;
 }
+
+.form-control {
+    display: flex;
+}
+
+.form-control input {
+    margin-right: .3rem;
+}
+
+#cancel-edit-btn {
+    margin-top: 1rem;
+}
