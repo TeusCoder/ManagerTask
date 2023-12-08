@@ -92,7 +92,7 @@ input, select {
     margin-top: 1rem;
 }
 /* todo toolbar */
-#toolbar {
+/* #toolbar {
     padding: 1rem;
     border-bottom: 1px solid #ccc;
     display: flex;
@@ -129,7 +129,7 @@ input, select {
 #filter select {
     flex: 1;
 
-}
+} */
 
 /* todo list */
 .todo{
