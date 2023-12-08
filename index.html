@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="css/styles.css">
     <!-- fonte awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="js/scripts.js"></script>
 </head>
 <body>
     <!-- atalho para div, usar o '.'+ o nome -->
@@ -21,8 +20,8 @@
             <p>Adicione sua tarefa:</p>
             <div class="form-control">
                 <input type="text" id="todo-input" placeholder="O que você vai fazer?">
-                <button type="submit">
-                    <i class="fa-thin fa-plus"></i>
+                <button type="submit" id="adicionarTarefa" value="teste" >
+                    <i class="fa-thin fa-plus" ></i>
                 </button>
             </div>
         </form>
@@ -56,7 +55,7 @@
             </div>
         </div>
         <div id="todo-list">
-            <div class="todo">
+            <div class="todo done">
                 <h3>Estou fazendo algo...</h3>
                 <button class="finish-todo">
                     <i class="fa-solid fa-check"></i>
@@ -82,5 +81,7 @@
             </div>
         </div>
     </div>
+    <script src="js/scripts.js"></script>
+
 </body>
 </html>
